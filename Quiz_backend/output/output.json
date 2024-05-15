@@ -1,0 +1,48 @@
+{
+    "questions": [
+        {
+            "Answer": "army ants",
+            "id": 1,
+            "context": "\u201cArmy ants create structures using decentralized collective intelligence processes,\u201d Isabella \nMuratore, a postdoctoral researcher at the New Jersey Institute of T echnology specializing in \narmy ant building techniques, explains to PopSci over email. According to their observations, army ants generally choose to \nconstruct bridges in the most efficient locations \u2014places wide enough to necessitate a building \nproject while simultaneously using the least number of ants possible. Army ants could teach robots a thing or two  \nArmy ants use their bodies to build bridges.",
+            "question": "What type of ants build bridges?",
+            "optionA": "a",
+            "optionB": "Isabella",
+            "optionC": "of",
+            "optionD": "army ants",
+            "answer": "army ants"
+        },
+        {
+            "Answer": "research team",
+            "id": 2,
+            "context": "But one research team \nisn\u2019t studying the coordination betwe en miniscule bugs to benefit future construction projects; \nthey are looking into how army ant teamwork could be mimicked by robots.",
+            "question": "Who is studying how army ant teamwork could be mimicked by robots?",
+            "optionA": "ant",
+            "optionB": "betwe",
+            "optionC": "research team",
+            "optionD": "coordination",
+            "answer": "research team"
+        },
+        {
+            "Answer": "bridges",
+            "id": 3,
+            "context": "According to their observations, army ants generally choose to \nconstruct bridges in the most efficient locations \u2014places wide enough to necessitate a building \nproject while simultaneously using the least number of ants possible. This could allow them to \u201cflexibly adapt to a variety of challen ges, such as linking together to \nform bridges over gaps of different lengths in the most efficient manner possible,\u201d Muratore \nwrites to PopSci. Utilizing prior modeling work, the team also tested whether the ant bridges could \nwithstand sudden, small changes in obstacle length using an adjustable spacing device.",
+            "question": "What do army ants usually construct in the most efficient locations?",
+            "optionA": "to",
+            "optionB": "as",
+            "optionC": "bridges",
+            "optionD": "different",
+            "answer": "bridges"
+        },
+        {
+            "Answer": "brain",
+            "id": 4,
+            "context": "David Hu, a Georgia Institute of T echnology engineering professor focused on fire ant raft \nconstructions during flooding, recently likened the insects to neurons in one big, creepy -crawly \nbrain while speaking to NPR on the subject.",
+            "question": "What part of the body did David Hu liken the insects to neurons in?",
+            "optionA": "likened",
+            "optionB": "brain",
+            "optionC": "a",
+            "optionD": "creepy",
+            "answer": "brain"
+        }
+    ]
+}
