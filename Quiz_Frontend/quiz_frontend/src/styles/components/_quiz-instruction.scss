@@ -1,0 +1,57 @@
+.instructions {
+    background-color: white;
+    border: 1px solid darken($off-white, 10%);
+    border-radius: 5px;
+    border-color: #333;
+    margin-top: $lg;
+    margin-bottom: $lg;
+    padding: $sm $lg;
+
+    p{background-color: white;}
+
+    .browser-default{background-color: white;}
+    li{background-color: white;}
+
+    h1 {
+        background-color: white;
+        color: $off-black;
+        font-size: $md;
+        text-align: center;
+    }
+
+    .lifeline {
+        background-color: white;
+        position: relative;
+        top: -3px;
+    }
+
+    .lifeline-icon {
+        background-color: white;
+        color: $green;
+        cursor: pointer;
+    }
+
+    .browser-default {
+        background-color: white;
+        padding-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    img {
+        background-color: white;
+        width: 80%;
+        height: 50%;
+    }
+
+    .left{background-color: white;}
+
+    .right{background-color: white;}
+} 
+
+@media (max-width: $md-breakpoint) {
+    .instructions img {
+        width: 100% !important;
+        height: 150% !important;
+    }
+}
