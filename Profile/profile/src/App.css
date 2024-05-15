@@ -1,0 +1,244 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Disable scrolling */
+  background-image: url('image03.webp'); /* Update the path to the background image */
+}
+
+/* App Container */
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  height: calc(100vh - 40px); /* Calculate height to fit the viewport */
+  overflow: auto; /* Enable scrolling for the container */
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1c2e58; /* Green header */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Sign-out Button */
+.sign-out {
+  background-color: #f44336; /* Red sign-out button */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-out:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
+
+/* Main Section */
+section {
+  background-color: #ffffff; /* White background */
+  border-radius: 10px;
+  margin-top: 20px;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+/* Chat Area */
+main {
+  height: calc(100vh - 140px); /* Set chat area height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 20px;
+  background-color:#0f172a ;
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+}
+
+/* Chatroom Header */
+.chatroom-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4CAF50; /* Green header */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px 10px 0 0;
+}
+
+.chatroom-header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Input Form */
+form {
+  background-color: #f1f3f4; /* Light gray background */
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+.input {
+  height: 50px;
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input[type="text"] {
+  flex-grow: 1; /* Grow input field */
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  
+}
+
+/* App.css */
+
+.input input[type="text"] {
+  color: black; /* Set the color to black or any other color you prefer */
+}
+
+input[type="text"]:focus {
+  outline: none; /* Remove focus outline */
+}
+
+.send {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align items to the right */
+}
+
+.file-upload-container input[type="file"] {
+  display: none; /* Hide the file input */
+}
+
+.send img {
+  margin-left: 5px;
+  margin-right: 15px;
+  
+}
+
+img {
+  height: 24px;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  padding: 15px 20px; /* Increase padding to increase button size */
+  color: #ffffff;
+  background-color: rgb(180, 1, 250);
+  cursor: pointer;
+}
+
+.form-button {
+  background-color: #4CAF50; /* Green send button */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
+  main {
+    height: calc(100vh - 200px); /* Decrease chat area height on smaller screens */
+  }
+}
+
+/* Chat Message Styling */
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.sent {
+  justify-content: flex-end; /* Align sent messages to the right */
+  align-items: flex-end; /* Align sent messages to the right */
+}
+
+.received {
+  justify-content: flex-start; /* Align received messages to the left */
+  align-items: flex-start; /* Align received messages to the left */
+}
+
+.text-bubble {
+  max-width: 75%;
+  padding: 10px 15px;
+  border-radius: 12px;
+  font-size: 15px;
+  word-wrap: break-word;
+  margin-right: 44px; /* Margin between bubble and edge of container */
+}
+
+.sent .text-bubble {
+  background-color: #1f0a67; /* Light green background for sent messages */
+  color: #ffffff; /* Black text color for sent messages */
+}
+
+.received .text-bubble {
+  background-color: #010b0c; /* Light blue background for received messages */
+  color: #fefefe; /* Black text color for received messages */
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 8px; /* Margin between avatar and bubble for both sent and received messages */
+}
+
+/* SignIn.css */
+
+.sign-in-container {
+  background-color: #0f172a;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.sign-in-image {
+  width: 200px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Add spacing between image and button */
+}
+
+.sign-in-button {
+  /* Add your button styles here */
+}
+
+.sign-in-text {
+  color: #ffffff; /* Change text color */
+  font-family: Arial, sans-serif; /* Change font family */
+  font-size: 20px; /* Increase font size */
+}
